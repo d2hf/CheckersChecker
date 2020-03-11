@@ -1,3 +1,6 @@
+import cv2
+import Checker
+
 params = cv2.SimpleBlobDetector_Params()
 params.minThreshold = 0
 params.maxThreshold = 240
